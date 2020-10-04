@@ -1,0 +1,204 @@
+html, body {
+	height: 100%;
+	font-family: "Cabin", sans-serif;
+
+}
+*{
+    box-sizing: border-box;/*Ширина и высота элемнтов будут считаться внутри*/
+}
+a{
+    text-decoration: none;/*Убирает подчеркивание*/
+    display: inline;/*Чтобы было в линию*/
+}
+ul,li{
+    list-style: none;/*Убирает маркеры*/
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;/*Если будет меньше чем это число то нижний скрол*/
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    font-size: 16px;
+}
+.header_top{
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5;
+}
+.header_language , .header_vk_btn, .header_github_btn {
+    float: right;
+    margin: 10px;
+    color: black;
+}
+.header_language img{
+    height: 26px;
+	width: 26px;
+	border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.header-par::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.header_email{
+    color: black;
+    letter-spacing: 0.25px;
+    line-height: 45px;
+}
+.header_down{
+    padding: 34px 10px 23px;
+}
+.header_down_parent{
+    display: flex;
+    justify-content: space-between;
+}
+.menu li{
+    display: inline-block;
+    margin: 10px;
+}
+.menu a{
+    color: black;
+}
+.menu li a.active{
+    border-bottom: 2px solid #dfa974;
+    position: relative;
+}
+
+
+/*---------------------
+  Main img and text
+-----------------------*/
+
+.main-text {
+	padding-top: 145px;
+}
+.main-text h1 {
+    font-size: 50px;
+	line-height: 90px;
+	color: #ffffff;
+    margin-bottom: 16px;
+    margin-left: 100px;
+}
+.main-text h2{
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 100px;
+}
+.main-text p {
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 28px;
+	margin-bottom: 35px;
+}
+.main-image {
+    background: url(6.png) no-repeat center; 
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+
+/*---------------------
+  About Me
+-----------------------*/
+.AboutMe{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 800px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.AboutMePar::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.about-text{
+    text-align: left;
+	padding: 0 35px;
+	float: left;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border: 1px solid #e5e5e5;
+    border-radius: 50px;
+}
+
+.about-text2{
+    margin-left: 600px;
+    padding-bottom: 100px;
+}
+.aboutmee{
+    margin-bottom: 40px;
+    text-align: center;
+    color: #dfa974;
+}
+.about-1 , .about-2{
+    color: #595960;
+}
+
+/*---------------------
+  Footer Section
+-----------------------*/
+
+.footer-section {
+    background: #222736;
+}
+.contact-parent{
+    padding: 40px 0px 50px ;
+}
+.contact-left {
+    float: right;
+}
+.contact-left a{
+    display: inline-block;
+	height: 40px;
+	width: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #ffffff;
+	border: 1px solid #5A4D48;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.contact-left :hover{
+    background: #dfa974;
+	border-color: #dfa974;
+}
+.contact-right h6{
+    font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+    font-family: "Cabin", sans-serif;
+    padding: 20;
+	margin-bottom: 20px;
+}
+.contact-right ul li{
+    font-size: 16px;
+	color: #aaaab3;
+	line-height: 32px;
+	list-style: none;
+}
+.contact-left :hover{
+    background: #dfa974;
+	border-color: #dfa974;
+}
+.copyright {
+	background: rgba(16, 20, 31, 0.2);
+	padding: 10px 0;
+}
+.copyright ul li{
+    list-style: none;
+	display: inline-block;
+    margin-right: 34px;
+}
+.copyright-text{
+    font-size: 16px;
+    color: #aaaab3;
+    text-align: right;
+}
